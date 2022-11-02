@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mutilpe select</title>
+  <link rel="stylesheet" href="./select.css">
+</head>
+
+<body>
+  <div class="multiple-select">
+    <div class="multiple-select__show"></div>
+    <ul class="multiple-select__ul">
+      <li class="multiple-select__li" data-value='1' title="121321321313131312312312321321">
+        121321321313131312312312321321</li>
+      <li class="multiple-select__li" data-value='12' title="8">2</li>
+      <li class="multiple-select__li" data-value='123' title="9">3</li>
+    </ul>
+  </div>
+  <button onclick="setValue(['1', '12'])">setValue</button>
+  <button onclick="getValue()">getValue</button>
+  <script src="./select.js"></script>
+</body>
+
+</html>
